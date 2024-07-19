@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "electron": "^31.2.0"
+  },
+  "name": "taskhub",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "jaos",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaoss2/TaskHub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jaoss2/TaskHub/issues"
+  },
+  "homepage": "https://github.com/Jaoss2/TaskHub#readme",
+  "description": ""
+}
