@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskHub</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Fontes -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+    </style>
+
 </head>
+
 <body>
-    
+    <div id="bar-container">
+
+        <span class="nav-menu"><img id="icon-menu" src="icons-fotos/icon-menu.png" width="20" height="20"
+                style="margin-right: 10px;" draggable="false"><a href="sobremim.html"
+                style="text-decoration: none; color: black;">01 . Menu</a></span>
+
+        <span id="abertura"></span>
+
+        <span class="nav-menu"><img id="icon-notas" src="icons-fotos/icon-nota.png" width="20" height="20"
+                style="margin-right: 10px;" draggable="false"><a href="projetoss.html"
+                style="text-decoration: none; color: black;">02 . Notas</a></span>
+
+        <span id="abertura"></span>
+
+        <span class="nav-menu"><img id="icon-clima" src="icons-fotos/icon-tempo.png" width="20" height="20"
+                style="margin-right: 10px;" draggable="false"><a href="contato.html"
+                style="text-decoration: none; color: black;">03 . Tempo</a></span>
+    </div>
+
+    <div class="relogio-menu">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+                                                <!-- Scripts -->
+                                        <script src="index.js"></script>
 </body>
+
 </html>
